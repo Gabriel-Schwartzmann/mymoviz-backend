@@ -13,5 +13,5 @@ router.get('/movies', (req, res) => {
 					res.json({ movies: apiData.results})
                 })
             });
- 
+  
 module.exports = router;
