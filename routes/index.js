@@ -2,7 +2,7 @@ var express = require('express');
 const fetch = require('node-fetch');
 var router = express.Router();
 
-const apiKey = process.env.TMDB_API_KEY;
+const apiKey = 'cb2c99a81e797feccbb2997224e49b4a';
 
 router.get('/movies', (req, res) => {
 
